@@ -1,0 +1,42 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 3vw;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  border: solid 1px gray;
+  display: block;
+  width: 50%;
+  padding: 8px 8px 8px 1em;
+}
+
+h2 {
+  border: solid 1px gray;
+  display: block;
+  width: 50%;
+  padding: 8px 8px 8px 2em;
+}
+
+h3 {
+  border: solid 1px gray;
+  display: block;
+  width: 50%;
+  padding: 8px 8px 8px 4em;
+}
+
+.selected {
+  background-color: yellow;
+}
