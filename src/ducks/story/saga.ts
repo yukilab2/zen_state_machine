@@ -83,7 +83,7 @@ export function* sagaMoveState(action: story.types.opMoveStateT) {
     if (!statePaths[newState].ascendantIds.includes(focalState)) {
         do {
             if (typeof focalState === 'undefined'){
-                console.error(`Illegal or not allowed transition operation. You can move state on to ${root.current}'s one of sibling or ascendants`);
+                console.error(`Illegal or not allowed transition operation. You can move state on to ${root.current}'s one of sibling or ascendants' sibling state`);
                 return;
             }
             TRANSITION_DEBUG(`..##onExit @ ${focalState}`);
