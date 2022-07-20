@@ -34,7 +34,7 @@ We initialize it from view layer (pages/index.tsx). Search for `sagaStartStateMa
 Once initialized
 - state may be changed to one of child state if written so in parent state onEnter handler.
 - state may change by calling sagaMoveState action.  This action can be called such from button onclick handler, web socket receive handler, timeout handler .. onEnter handlers.
-- State transition destination with sagaMoveState are : one of sibling states or one of ascendants.
+- State transition destination with sagaMoveState are : one of sibling states or one of ascendants' sibling states.
 
 # TODOs
 - test code
